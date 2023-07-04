@@ -15,7 +15,7 @@ import com.dkey.entity.Country;
 import com.dkey.service.CountryService;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:4200")
 public class CountryController {
 
 	@Autowired
